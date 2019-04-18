@@ -17,6 +17,11 @@ git代码托管平台
 		git config --global user.email "18081003141@163.com"
 	
 	通过三步操作将本地代码推送到线上
-		 1、 git add .  将所有文件添加到缓存区
-		 2、 
-
+		 1、 git add .  
+		 	将所有文件添加到缓存区
+		 2、 git commit -m "本次提交所做的修改"  
+		 	将代码提交到本地仓库
+		 3、  git remote add origin https://github.com/XDLRanger/dary-project.git
+			将本地仓库跟线上仓库进行关联
+			4、  git push origin master
+			将本地仓库推送到线上（可能需要多次输入用户名密码）
