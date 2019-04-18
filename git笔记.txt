@@ -1,0 +1,22 @@
+git代码托管平台
+	https://github.com/
+	https://dev.tencent.com/
+	https://gitee.com/
+
+新建线上仓库
+	new respository
+	填写 respository name
+	选择public
+	得到一个线上地址
+
+到本地代码的位置
+	鼠标右键打开git bash here
+	执行 git init
+	配置用户名和邮箱
+		git config --global user.name "XDLRanger"
+		git config --global user.email "18081003141@163.com"
+	
+	通过三步操作将本地代码推送到线上
+		 1、 git add .  将所有文件添加到缓存区
+		 2、 
+
